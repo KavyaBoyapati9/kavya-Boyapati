@@ -5,7 +5,7 @@ iris = load_iris()
 X, y = iris.data, iris.target
 
 # Train KNN model
-knn = KNeighborsClassifier(n_neighbors=3)
+knn = KNeighborsClassifier(n_neighbors=4)
 knn.fit(X, y)
 
 # Sample prediction (change values to test)
