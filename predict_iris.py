@@ -1,6 +1,5 @@
 from sklearn.datasets import load_iris
 from sklearn.neighbors import KNeighborsClassifier
-
 # Load data
 iris = load_iris()
 X, y = iris.data, iris.target
